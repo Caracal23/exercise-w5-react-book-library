@@ -1,4 +1,5 @@
 import "./App.css";
+import Header from "./components/Header";
 import data from "./data.json";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div>Book library goes here</div>
+      <Header />
     </>
   );
 }
